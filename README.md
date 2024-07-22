@@ -7,7 +7,7 @@ This container image contains following components:
 ## USAGE
 
 ```bash
-docker pull hidori/semver
+docker pull hidori/semver:latest
 ```
 
 ## EXAMPLE
