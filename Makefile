@@ -12,8 +12,8 @@ rebuild:
 run:
 	docker run --rm ${IMAGE_NAME} -i 1.0.0
 
-.PHONY: tag
-tag:
+.PHONY: version
+version:
 	git checkout main
 	git fetch
 	git pull
