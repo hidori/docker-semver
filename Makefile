@@ -12,6 +12,10 @@ rebuild:
 run:
 	docker run --rm ${IMAGE_NAME} -i 1.0.0
 
+.PHONY: rmi
+rmi:
+	docker rmi -f ${IMAGE_NAME}
+
 .PHONY: version
 version:
 	git checkout main
