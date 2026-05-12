@@ -1,6 +1,6 @@
 {
   "name": "docker-semver",
   "dependencies": {
-    "semver": "7.7.4"
+    "semver": "7.8.0"
   }
 }
