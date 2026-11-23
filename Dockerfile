@@ -1,4 +1,4 @@
-FROM alpine:3.24.4
+FROM alpine:3.24
 
 RUN apk add --no-cache libstdc++ libatomic \
     && NODE_VERSION=$(wget -qO- https://nodejs.org/dist/index.tab | awk 'NR > 1 && $10 != "-" { print $1; exit }') \
