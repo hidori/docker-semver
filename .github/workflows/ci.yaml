@@ -1,5 +1,3 @@
-name: Test & Build
-
 on:
   push:
     branches: [ "main" ]
@@ -11,5 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v7
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile
+    - run: docker build . --file Dockerfile
